@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import time
 from calendar import isleap
 
@@ -22,8 +21,8 @@ def month_days(month, leap_year):
         return 28
 
 
-name = input("input your name: ")
-age = input("input your age: ")
+name = input("Enter your name: ")
+age = input("Enter your age in Years: ")
 localtime = time.localtime(time.time())
 
 year = int(age)
